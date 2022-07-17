@@ -16,7 +16,7 @@ a{ text-decoration: none; color: #232429; cursor: pointer;}
 
 /* Header */
 .header{
-  position: fixed;
+  position: absolute;
   width: 100vw;
   background-color: rgba(255, 255, 255, 0);
   padding: 2.5vw 0vw;
@@ -45,6 +45,7 @@ a{ text-decoration: none; color: #232429; cursor: pointer;}
   width: 100%;
   text-align: center;
   color: #fff;
+  opacity: 1;
 }
 
 
@@ -54,4 +55,5 @@ a{ text-decoration: none; color: #232429; cursor: pointer;}
   background-size: cover;
   width: 100vw;
   height: 58vw;
+  margin-bottom: 10vw;
 }
