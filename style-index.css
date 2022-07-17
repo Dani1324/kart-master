@@ -1,4 +1,4 @@
-/* ! General style of the website */
+/* General style of the website */
 html{ overflow-x: hidden; min-height: 100vh;}
 body{
   font-family: 'Montserrat';
@@ -12,3 +12,46 @@ body{
 }
 
 a{ text-decoration: none; color: #232429; cursor: pointer;}
+
+
+/* Header */
+.header{
+  position: fixed;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 2.5vw 0vw;
+  border-bottom: 0vw solid rgba(35, 36, 42, 0.05);
+  transition: 0.5s;
+}
+
+.header h1{
+  font-family: 'Oswald';
+  font-size: 3vw;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.3vw;
+}
+
+.header span{
+  color: #D93434;
+}
+
+.header h2{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 0.78vw;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+
+/* Hero */
+.hero{
+  background-image: url('resources/hero-bg.webp');
+  background-size: cover;
+  width: 100vw;
+  height: 58vw;
+}
