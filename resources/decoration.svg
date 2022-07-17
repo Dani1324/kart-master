@@ -1,1 +1,9 @@
-<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 1921 740" xml:space="preserve"><style>.st0{fill:#ededed}.st1{fill:#d93427}</style><path class="st0" d="M1921 0v62h-378l28-62z"/><path class="st1" d="M1921 40v62h-510l28-62z"/><g><path class="st0" d="M298 646h-78.5l-9.5-21H0v-41h270zM416 740H0v-55h237l-3.2-7H388z"/><path class="st1" d="M237 685H0v-60h210l9.5 21 14.3 32z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="740" viewBox="0 0 1920 740">
+  <g id="Raggruppa_957" data-name="Raggruppa 957" transform="translate(0 0)">
+    <path id="Tracciato_2959" data-name="Tracciato 2959" d="M1570.935,0l-18.059,40H1920.92V0Z" transform="translate(-0.92)" fill="#ededed"/>
+    <path id="Tracciato_2960" data-name="Tracciato 2960" d="M1438.94,40l-28,62H1920.92V40Z" transform="translate(-0.92)" fill="#e10600"/>
+    <path id="Tracciato_2961" data-name="Tracciato 2961" d="M0,625v60H236.99l-3.15-7-14.4-32-9.449-21Z" fill="#e10600"/>
+    <path id="Tracciato_2962" data-name="Tracciato 2962" d="M233.84,678l3.15,7H0v55H415.983l-28-62Z" fill="#ededed"/>
+    <path id="Tracciato_2963" data-name="Tracciato 2963" d="M0,584v41H209.992l9.449,21h78.546l-28-62Z" fill="#ededed"/>
+  </g>
+</svg>
