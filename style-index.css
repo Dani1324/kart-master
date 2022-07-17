@@ -77,7 +77,7 @@ a{ text-decoration: none; color: #232429; cursor: pointer;}
 
 .buttons{
   width: 34vw;
-  margin: 4vw 33vw;
+  margin: 6vw 33vw;
   display: flex;
 }
 
@@ -90,9 +90,14 @@ a{ text-decoration: none; color: #232429; cursor: pointer;}
   background-color: #fff;
   color: #292829;
   font-family: 'Montserrat';
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.3vw;
-  padding: 1vw;
+  padding: 1.12vw 1vw 1vw 1vw;
+  transition: 0.12s;
+}
+
+.hero-btn-1:active{
+  transform: scale(0.95);
 }
 
 .hero-btn-2{
@@ -104,7 +109,12 @@ a{ text-decoration: none; color: #232429; cursor: pointer;}
   color: #fff;
   border: 0.12vw solid #fff;
   font-family: 'Montserrat';
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.3vw;
-  padding: 1vw;
+  padding: 1vw 1vw 0.9vw 1vw;
+  transition: 0.12s;
+}
+
+.hero-btn-2:active{
+  transform: scale(0.95);
 }
