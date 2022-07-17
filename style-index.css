@@ -4,6 +4,7 @@ body{
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 1.3vw;
+  line-height: 1.25;
   background-color: #F6F6F6;
   right: 0;
   top: 0;
@@ -26,11 +27,11 @@ a{ text-decoration: none; color: #232429; cursor: pointer;}
 
 .header h1{
   font-family: 'Oswald';
-  font-size: 3vw;
+  font-size: 3.3vw;
   width: 100%;
   text-align: center;
   color: #fff;
-  margin-bottom: 0.3vw;
+  margin-bottom: -0.2vw;
 }
 
 .header span{
@@ -38,9 +39,8 @@ a{ text-decoration: none; color: #232429; cursor: pointer;}
 }
 
 .header h2{
-  font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 0.78vw;
+  font-size: 0.87vw;
   font-style: italic;
   width: 100%;
   text-align: center;
@@ -54,6 +54,57 @@ a{ text-decoration: none; color: #232429; cursor: pointer;}
   background-image: url('resources/hero-bg.webp');
   background-size: cover;
   width: 100vw;
-  height: 58vw;
+  height: 41vw;
   margin-bottom: 10vw;
+  padding-top: 17vw;
+}
+
+.hero h2{
+  font-family: 'Oswald';
+  font-size: 3.5vw;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+.hero h3{
+  font-size: 1.4vw;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+.buttons{
+  width: 34vw;
+  margin: 4vw 33vw;
+  display: flex;
+}
+
+.hero-btn-1{
+  height: 100%;
+  width: 48%;
+  margin-right: 4%;
+  border: none;
+  border-radius: 1vw 0vw 0vw 1vw;
+  background-color: #fff;
+  color: #292829;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.3vw;
+  padding: 1vw;
+}
+
+.hero-btn-2{
+  height: 100%;
+  width: 48%;
+  border: none;
+  border-radius: 0vw 1vw 1vw 0vw;
+  background-color: transparent;
+  color: #fff;
+  border: 0.12vw solid #fff;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.3vw;
+  padding: 1vw;
 }
