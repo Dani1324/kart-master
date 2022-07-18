@@ -466,38 +466,29 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   }
 
   .card__content{
-    width: 46%;
-    margin: 8.85vw 8%;
-    text-align: right;
+    width: 76%;
+    margin: 8.85vw 12%;
+    text-align: left;
   }
 
   .card__content h2{
-    font-family: 'Oswald';
-    font-size: 2.3vw;
-    margin-bottom: 2.5vw;
+    font-size: 4.6vw;
+    margin-bottom: 5vw;
   }
 
   .card__content p{
-    margin-bottom: 3vw;
+    margin-bottom: 6vw;
   }
 
   .card__content a{
-    font-size: 1.1vw;
-    font-weight: 600;
-    color: #fff;
-    background-color: #E10600;
-    padding: 0.9vw 4vw;
-    border-radius: 0.9vw;
+    font-size: 3vw;
+    padding: 1.8vw 8vw;
+    border-radius: 2vw;
   }
 
   .login-link{
     width: 12vw;
-    transition: all 0.13s;
-    margin-left: 24.85vw;
-  }
-
-  .login-link:active{
-    transform: scale(0.95);
+    margin-left: 0;
   }
 
 
