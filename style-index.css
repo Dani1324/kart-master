@@ -106,10 +106,8 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 .header{
   position: absolute;
   width: 100vw;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: transparent;
   padding: 2.5vw 0vw;
-  border-bottom: 0vw solid rgba(35, 36, 42, 0.05);
-  transition: 0.5s;
 }
 
 .header h1{
@@ -132,7 +130,6 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   width: 100%;
   text-align: center;
   color: #fff;
-  opacity: 1;
 }
 
 
@@ -168,7 +165,6 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 }
 
 .hero-btn-1{
-  height: 100%;
   width: 48%;
   margin-right: 4%;
   border: none;
@@ -188,7 +184,6 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 }
 
 .hero-btn-2{
-  height: 100%;
   width: 48%;
   border: none;
   border-radius: 0vw 1vw 1vw 0vw;
@@ -366,6 +361,189 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
     border-radius: 2vw;
     font-size: 3vw;
     padding: 2.8vw 28vw;
+  }
+
+
+  /* Header */
+  .header{
+    padding: 0vw;
+    margin-top: 10vh;
+  }
+
+  .header h1{
+    font-size: 12vw;
+    margin-bottom: -0.8vw;
+  }
+
+  .header h2{
+    font-size: 3.1vw;
+  }
+
+
+  /* Hero */
+  .hero{
+    background-image: url('resources/hero-bg-mobile.webp');
+    height: 90vw;
+    padding-top: 120vw;
+    padding-bottom: 20vw;
+  }
+
+  .hero h2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 7vw;
+    margin-bottom: 4vw;
+  }
+
+  .hero h3{
+    font-size: 3.5vw;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3vw;
+  }
+
+  .buttons{
+    width: 80vw;
+    height: 10vw;
+    margin: 10vw 10vw 0vw 10vw;
+    display: block;
+  }
+
+  .hero-btn-1{
+    position: absolute;
+    top: 162vw;
+    font-weight: 600;
+    margin: 0;
+    width: 30vw;
+    border-radius: 2vw;
+    font-size: 3.5vw;
+    padding: 3.2vw 25.2vw 3.2vw 25.2vw;
+  }
+
+  .hero-btn-2{
+    position: absolute;
+    top: 177vw;
+    font-weight: 600;
+    width: 30vw;
+    border-radius: 2vw;
+    border: 0.3vw solid #fff;
+    font-size: 3.5vw;
+    padding: 3vw 25vw 3vw 25vw;
+  }
+
+
+  /* Quote */
+  .quote{
+    width: 100vw;
+    height: 37vw;
+    text-align: center;
+  }
+
+  .quote img{
+    position: absolute;
+    top: 68vw;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+  }
+
+  .quote h3{
+    font-family: 'Montserrat';
+    font-size: 3.5vw;
+    font-weight: 600;
+    margin: 22vw auto 2vw auto;
+  }
+
+  .quote p{
+    font-size: 1.6vw;
+  }
+
+
+  /* Card */
+  .card{
+    width: 80vw;
+    margin: 3vw 10vw 0vw 10vw;
+    border-radius: 1.3vw;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+  }
+
+  .card img{
+    height: 35vw;
+    width: 40%;
+  }
+
+  .card__content{
+    width: 46%;
+    margin: 8.85vw 8%;
+    text-align: right;
+  }
+
+  .card__content h2{
+    font-family: 'Oswald';
+    font-size: 2.3vw;
+    margin-bottom: 2.5vw;
+  }
+
+  .card__content p{
+    margin-bottom: 3vw;
+  }
+
+  .card__content a{
+    font-size: 1.1vw;
+    font-weight: 600;
+    color: #fff;
+    background-color: #E10600;
+    padding: 0.9vw 4vw;
+    border-radius: 0.9vw;
+  }
+
+  .login-link{
+    width: 12vw;
+    transition: all 0.13s;
+    margin-left: 24.85vw;
+  }
+
+  .login-link:active{
+    transform: scale(0.95);
+  }
+
+
+  /* Footer*/
+  .footer{
+    width: 100vw;
+    padding: 4vw 0;
+    margin-top: 15vw;
+    background-image: url('resources/footer-bg.webp');
+    background-size: cover;
+  }
+
+  .footer img{
+    width: 28vw;
+    margin: 0 36vw;
+  }
+
+  .footer h2{
+    font-weight: 600;
+    font-size: 0.82vw;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    margin-top: -0.6vw;
+  }
+
+  .footer-links{
+    display: flex;
+    width: 38vw;
+    margin: 2.5vw auto 0vw auto;
+    opacity: 0.7;
+  }
+
+  .footer-links a{
+    margin: 0 1.5vw;
+    font-size: 1.05vw;
   }
 
 }
