@@ -435,44 +435,34 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 
   /* Quote */
   .quote{
-    width: 100vw;
     height: 37vw;
-    text-align: center;
+    margin-bottom: 20vw;
   }
 
   .quote img{
-    position: absolute;
-    top: 68vw;
-    left: 0;
-    width: 100vw;
-    z-index: -1;
+    top: 254vw;
   }
 
   .quote h3{
-    font-family: 'Montserrat';
-    font-size: 3.5vw;
-    font-weight: 600;
-    margin: 22vw auto 2vw auto;
+    font-size: 5vw;
+    margin: 34vw auto 4vw auto;
   }
 
   .quote p{
-    font-size: 1.6vw;
+    font-size: 3vw;
   }
 
 
   /* Card */
   .card{
-    width: 80vw;
-    margin: 3vw 10vw 0vw 10vw;
-    border-radius: 1.3vw;
-    overflow: hidden;
-    background-color: #fff;
-    display: flex;
+    margin: 8vw 10vw 0vw 10vw;
+    border-radius: 2.5vw;
+    display: block;
   }
 
   .card img{
-    height: 35vw;
-    width: 40%;
+    height: auto;
+    width: 100%;
   }
 
   .card__content{
