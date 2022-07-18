@@ -90,7 +90,7 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   background-color: #fff;
   color: #292829;
   font-family: 'Montserrat';
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.3vw;
   padding: 1.12vw 1vw 1vw 1vw;
   transition: 0.12s;
@@ -109,7 +109,7 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   color: #fff;
   border: 0.12vw solid #fff;
   font-family: 'Montserrat';
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.3vw;
   padding: 1vw 1vw 0.9vw 1vw;
   transition: 0.12s;
@@ -132,6 +132,7 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   top: 68vw;
   left: 0;
   width: 100vw;
+  z-index: -1;
 }
 
 .quote h3{
@@ -184,4 +185,50 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   background-color: #E10600;
   padding: 0.9vw 4vw;
   border-radius: 0.9vw;
+}
+
+.login-link{
+  width: 12vw;
+  transition: all 0.13s;
+  margin-left: 24.85vw;
+}
+
+.login-link:active{
+  transform: scale(0.95);
+}
+
+
+/* Footer*/
+.footer{
+  width: 100vw;
+  padding: 4vw 0;
+  margin-top: 15vw;
+  background-image: url('resources/footer-bg.webp');
+  background-size: cover;
+}
+
+.footer img{
+  width: 28vw;
+  margin: 0 36vw;
+}
+
+.footer h2{
+  font-weight: 600;
+  font-size: 0.82vw;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+  margin-top: -0.6vw;
+}
+
+.footer-links{
+  display: flex;
+  width: 38vw;
+  margin: 2.5vw auto 0vw auto;
+  opacity: 0.7;
+}
+
+.footer-links a{
+  margin: 0 1.5vw;
+  font-size: 1.05vw;
 }
