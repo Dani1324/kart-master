@@ -26,18 +26,32 @@
     <!-- Popup -->
     <div id="login-popup" class="overlay">
       <div class="popup">
-        <a class="close" onclick="javascript:history.back()">&times;</a>
+        <a class="close" href="index.html#">&times;</a>
+        <h1>Accedi</h1>
+        <input type="text" placeholder="Nome utente">
+        <input type="password" placeholder="Password">
+        <p>Non hai un account? <a href="index.html#register-popup">Registrati ora</a></p>
+        <div>
+          <a href="#" class="log-btn">Inizia</a>
+        </div>
       </div>
     </div>
 
     <div id="register-popup" class="overlay">
       <div class="popup">
-        <a class="close" onclick="javascript:history.back()">&times;</a>
+        <a class="close" href="index.html#">&times;</a>
+        <h1>Registrati</h1>
+        <input type="text" placeholder="Nome utente">
+        <input type="password" placeholder="Password">
+        <p>Cliccando “inizia” accetti i <a href="#">Termini di Servizio</a> e l’<a href="#">informativa sulla privacy</a></p>
+        <div>
+          <a href="#" class="log-btn">Inizia</a>
+        </div>
       </div>
     </div>
 
     <!-- Header -->
-    <div class="header">
+    <div class="header" id="header">
       <h1>KART <span>MASTER</span></h1>
       <h2>RECORD THE RESULTS OF YOUR RACES</h2>
     </div>

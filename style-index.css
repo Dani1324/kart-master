@@ -34,12 +34,11 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 .overlay:target{ visibility: visible; opacity: 1;}
 
 .popup{
-  margin: 5.2vw auto auto auto;
-  padding: 3.5vw 4% 1.5vw 4%;
+  margin: 6.5vw auto auto auto;
+  padding: 5.5vw 4%;
   background: #fff;
-  border-radius: 0.8vw;
-  width: 33%;
-  height: 40vw;
+  border-radius: 1.2vw;
+  width: 30%;
   position: relative;
   z-index: 200;
 }
@@ -54,6 +53,53 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 }
 
 .popup .close:hover{ color: #E10600;}
+
+
+/* Popup style */
+.popup h1{
+  font-family: 'Oswald';
+  font-size: 2.5vw;
+  text-align: center;
+  margin-bottom: 4vw;
+}
+
+.popup input{
+  width: calc(100% - 4vw);
+  border: none;
+  background-color: #F6F6F6;
+  color: #292829;
+  padding: 1.6vw 2vw 1.35vw 2vw;
+  margin-bottom: 1vw;
+  border-radius: 1vw;
+  font-size: 1.25vw;
+}
+
+.popup p{
+  font-size: 1.1vw;
+  text-align: center;
+  margin: 1vw 0 5vw 0;
+}
+
+.popup p a{
+  color: #0A76F1;
+  text-decoration: underline;
+}
+
+.popup div{
+  transition: all 0.06s;
+}
+
+.popup div:active{
+  transform: scale(0.95);
+}
+
+.log-btn{
+  background-color: #E10600;
+  border-radius: 1vw;
+  font-size: 1.2vw;
+  color: #fff;
+  padding: 1.2vw 13.5vw;
+}
 
 
 /* Header */
