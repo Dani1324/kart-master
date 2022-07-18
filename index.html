@@ -24,9 +24,15 @@
   <body>
 
     <!-- Popup -->
-    <div id="popup" class="overlay">
+    <div id="login-popup" class="overlay">
       <div class="popup">
+        <a class="close" onclick="javascript:history.back()">&times;</a>
+      </div>
+    </div>
 
+    <div id="register-popup" class="overlay">
+      <div class="popup">
+        <a class="close" onclick="javascript:history.back()">&times;</a>
       </div>
     </div>
 
@@ -41,8 +47,8 @@
       <h2>Organizza il tuo campionato <br>in pochi minuti</h2>
       <h3>Usa la nostra piattaforma totalmente gratuita <br>per gestire le tue gare con i tuoi amici.</h3>
       <div class="buttons">
-        <button class="hero-btn-1" type="button">Accedi</button>
-        <button class="hero-btn-2" type="button">Registrati</button>
+        <a href="#login-popup" class="hero-btn-1">Accedi</a>
+        <a href="#register-popup" class="hero-btn-2">Registrati</a>
       </div>
     </div>
 
@@ -60,7 +66,7 @@
         <h2>Invita i tuoi amici a partecipare <br>al tuo campionato</h2>
         <p>Così facendo, tutti avranno a disposizione le statistiche delle singole gare che organizzate assieme</p>
         <div class="login-link">
-          <a href="#">Accedi</a>
+          <a href="#login-popup">Accedi</a>
         </div>
       </div>
     </div>
@@ -69,7 +75,7 @@
         <h2>Controlla la classifica delle tue <br>gare in ogni momento</h2>
         <p>Controlla l’andamento del campionato <br>in tempo reale</p>
         <div class="login-link" style="margin-left: 0;">
-          <a href="#">Accedi</a>
+          <a href="#login-popup">Accedi</a>
         </div>
       </div>
       <img src="resources/card-img-2.webp" alt="Controlla la classifica quando vuoi">
@@ -80,7 +86,7 @@
         <h2>Scegli fra decine di circuiti <br>in tutta Italia</h2>
         <p>Non ne trovi uno? Nessun problema, <br>contattaci e lo inseriremo prima possibile!</p>
         <div class="login-link">
-          <a href="#">Accedi</a>
+          <a href="#login-popup">Accedi</a>
         </div>
       </div>
     </div>
