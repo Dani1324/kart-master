@@ -383,9 +383,9 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   /* Hero */
   .hero{
     background-image: url('resources/hero-bg-mobile.webp');
-    height: 90vw;
-    padding-top: 120vw;
-    padding-bottom: 20vw;
+    height: 80vw;
+    padding-top: 100vw;
+    padding-bottom: 40vw;
   }
 
   .hero h2{
@@ -412,7 +412,7 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 
   .hero-btn-1{
     position: absolute;
-    top: 162vw;
+    top: 150vw;
     font-weight: 600;
     margin: 0;
     width: 30vw;
@@ -423,7 +423,7 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 
   .hero-btn-2{
     position: absolute;
-    top: 177vw;
+    top: 165vw;
     font-weight: 600;
     width: 30vw;
     border-radius: 2vw;
