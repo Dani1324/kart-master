@@ -137,6 +137,7 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 .hero{
   background-image: url('resources/hero-bg.webp');
   background-size: cover;
+  background-position: center;
   width: 100vw;
   height: 41vw;
   padding-top: 17vw;
