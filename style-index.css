@@ -467,12 +467,12 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 
   .card__content{
     width: 76%;
-    margin: 8.85vw 12%;
+    margin: 8.85vw 12% 13vw 12%;
     text-align: left;
   }
 
   .card__content h2{
-    font-size: 4.6vw;
+    font-size: 4.9vw;
     margin-bottom: 5vw;
   }
 
@@ -480,14 +480,18 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
     margin-bottom: 10vw;
   }
 
+  .card__content br{
+    display: none;
+  }
+
   .card__content a{
-    font-size: 3vw;
+    font-size: 3.2vw;
     padding: 2.2vw 10vw;
     border-radius: 2vw;
   }
 
   .login-link{
-    width: 30.7vw;
+    width: 31.2vw;
     margin-left: 0;
   }
 
