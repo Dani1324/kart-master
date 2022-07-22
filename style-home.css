@@ -104,205 +104,75 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 
 /* Header */
 .header{
+  background-color: #fff;
+  width: 80vw;
+  padding: 1.3vw 10vw;
+  z-index: 3;
+}
+
+.header img{
+  height: 3.5vw;
+  padding: 0 26.3vw;
+}
+
+#header-control-right img{
+  height: 1.5vw;
+  padding: 1vw 0;
+}
+
+#header-control-left img{
+  height: 1.5vw;
+  padding: 1vw 0;
+  visibility: hidden;
+}
+
+#header-control-left{
+  cursor: default;
+}
+
+
+/* Menu */
+.menu{
+  background-color: #292829;
   position: absolute;
-  width: 100vw;
-  background-color: transparent;
-  padding: 2.5vw 0vw;
+  top: 0;
+  right: -100%;
+  width: 93vw;
+  height: 100vh;
+  padding: 0vh 3.5vw;
+  display: block;
+  z-index: 2;
+  transition: all 1s cubic-bezier(.215,.61,.355,1);
 }
 
-.header h1{
+#menu-close{
+  margin: 2.3vw 0 7vw 0;
+}
+
+#menu-close img{
+  height: 1.8vw;
+}
+
+.menu a{
   font-family: 'Oswald';
-  font-size: 3.3vw;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-  margin-bottom: -0.2vw;
-}
-
-.header span{
-  color: #D93434;
-}
-
-.header h2{
-  font-weight: 600;
-  font-size: 0.87vw;
-  font-style: italic;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-}
-
-
-/* Hero */
-.hero{
-  background-image: url('resources/hero-bg.webp');
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  height: 41vw;
-  padding-top: 17vw;
-}
-
-.hero h2{
-  font-family: 'Oswald';
-  font-size: 3.5vw;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 3vw;
-}
-
-.hero h3{
-  font-size: 1.4vw;
   font-weight: 400;
   color: #fff;
-  text-align: center;
-  margin-bottom: 3vw;
-}
-
-.buttons{
-  width: 34vw;
-  margin: 6vw 33vw;
-  display: flex;
-}
-
-.hero-btn-1{
-  width: 48%;
-  margin-right: 4%;
-  border: none;
-  border-radius: 1vw 0vw 0vw 1vw;
-  background-color: #fff;
-  color: #292829;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 1.3vw;
-  text-align: center;
-  padding: 1.12vw 1vw 1vw 1vw;
-  transition: 0.12s;
-}
-
-.hero-btn-1:active{
-  transform: scale(0.95);
-}
-
-.hero-btn-2{
-  width: 48%;
-  border: none;
-  border-radius: 0vw 1vw 1vw 0vw;
-  background-color: transparent;
-  color: #fff;
-  border: 0.12vw solid #fff;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 1.3vw;
-  text-align: center;
-  padding: 1vw 1vw 0.9vw 1vw;
-  transition: 0.12s;
-}
-
-.hero-btn-2:active{
-  transform: scale(0.95);
-}
-
-
-/* Quote */
-.quote{
-  width: 100vw;
-  height: 37vw;
-  text-align: center;
-}
-
-.quote img{
-  position: absolute;
-  top: 68vw;
-  left: 0;
-  width: 100vw;
-  z-index: -1;
-}
-
-.quote h3{
-  font-family: 'Montserrat';
-  font-size: 3.5vw;
-  font-weight: 600;
-  margin: 22vw auto 2vw auto;
-}
-
-.quote p{
-  font-size: 1.6vw;
-}
-
-
-/* Card */
-.card{
-  width: 80vw;
-  margin: 3vw 10vw 0vw 10vw;
-  border-radius: 1.3vw;
-  overflow: hidden;
-  background-color: #fff;
-  display: flex;
-}
-
-.card img{
-  height: 35vw;
-  width: 40%;
-}
-
-.card__content{
-  width: 46%;
-  margin: 8.85vw 8%;
-  text-align: right;
-}
-
-.card__content h2{
-  font-family: 'Oswald';
-  font-size: 2.3vw;
-  margin-bottom: 2.5vw;
-}
-
-.card__content p{
-  margin-bottom: 3vw;
-}
-
-.card__content a{
-  font-size: 1.1vw;
-  font-weight: 600;
-  color: #fff;
-  background-color: #E10600;
-  padding: 0.9vw 4vw;
-  border-radius: 0.9vw;
-}
-
-.login-link{
-  width: 12vw;
-  transition: all 0.13s;
-  margin-left: 24.85vw;
-}
-
-.login-link:active{
-  transform: scale(0.95);
+  width: 0%;
+  display: block;
+  margin: 5vh 0 0 0;
+  font-size: 1.5vw;
+  white-space: nowrap;
 }
 
 
 /* Footer*/
 .footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
   width: 100vw;
   padding: 4vw 0;
   margin-top: 15vw;
-  background-image: url('resources/footer-bg.webp');
-  background-size: cover;
-}
-
-.footer img{
-  width: 28vw;
-  margin: 0 36vw;
-}
-
-.footer h2{
-  font-weight: 600;
-  font-size: 0.82vw;
-  font-style: italic;
-  width: 100%;
-  text-align: center;
-  margin-top: -0.6vw;
 }
 
 .footer-links{
@@ -505,6 +375,7 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 
   /* Footer*/
   .footer{
+    display: none;
     padding: 8vw 0;
   }
 

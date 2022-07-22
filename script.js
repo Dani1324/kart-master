@@ -28,3 +28,16 @@ else {
   $("#desktop").css("display", "none");
   $("#mobile").css("display", "block");
 }
+
+// Menu
+$( document ).ready(function() {
+  $( "#header-control-right" ).on('click', function() {
+      $(".menu").css("right", "-80%");
+    });
+});
+
+$( document ).ready(function() {
+  $( "#menu-close" ).on('click', function() {
+      $(".menu").css("right", "-100%");
+    });
+});
