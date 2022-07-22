@@ -516,10 +516,17 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 
   .footer img{
     width: 54vw;
+    margin: 0;
+  }
+
+  .footer-image-link{
+    width: 54vw;
     margin: 0 23vw;
   }
 
   .footer h2{
+    width: 54vw;
+    margin: 0 23vw;
     font-size: 1.6vw;
     margin-top: -1.8vw;
   }
