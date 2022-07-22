@@ -281,6 +281,9 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   transform: scale(0.95);
 }
 
+#desktop{ display: block;}
+#mobile{ display: none;}
+
 
 /* Footer*/
 .footer{
@@ -466,6 +469,9 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
     border-radius: 2.5vw;
     display: block;
   }
+
+  #desktop{ display: none;}
+  #mobile{ display: block;}
 
   .card img{
     height: auto;

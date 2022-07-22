@@ -20,15 +20,6 @@ $("a#ciao").on('click', function(event) {
 // Mobile optimization
 const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
-if (width > 1025) {
-  $("#mobile").css("display", "none");
-  $("#desktop").css("display", "block");
-}
-else {
-  $("#desktop").css("display", "none");
-  $("#mobile").css("display", "block");
-}
-
 // Menu
 $( document ).ready(function() {
   $( "#header-control-right" ).on('click', function() {
