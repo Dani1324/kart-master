@@ -1,4 +1,1 @@
-<svg id="Raggruppa_937" data-name="Raggruppa 937" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
-  <rect id="Rettangolo_19631" data-name="Rettangolo 19631" width="46.016" height="4.895" transform="translate(36 3.462) rotate(135)" fill="#fff"/>
-  <rect id="Rettangolo_19632" data-name="Rettangolo 19632" width="46.016" height="4.895" transform="translate(3.462 0) rotate(45)" fill="#fff"/>
-</svg>
+<svg data-name="Raggruppa 937" xmlns="http://www.w3.org/2000/svg" width="36" height="36"><path data-name="Rettangolo 19631" fill="#fff" d="M36 3.462L3.462 36 0 32.54 32.54 0z"/><path data-name="Rettangolo 19632" fill="#fff" d="M3.462 0L36 32.538 32.54 36 0 3.46z"/></svg>
