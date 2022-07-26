@@ -21,14 +21,10 @@ $("a#ciao").on('click', function(event) {
 const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
 // Menu
-$( document ).ready(function() {
-  $( "#header-control-right" ).on('click', function() {
-      $(".menu").css("right", "-80%");
-    });
+$( "#header-control-right" ).on('click', function() {
+  $(".menu").css("right", "-80%");
 });
 
-$( document ).ready(function() {
-  $( "#menu-close" ).on('click', function() {
-      $(".menu").css("right", "-100%");
-    });
+$( "#menu-close" ).on('click', function() {
+  $(".menu").css("right", "-100%");
 });

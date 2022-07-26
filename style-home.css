@@ -1,5 +1,5 @@
 /* General style of the website */
-html{ overflow: hidden; min-height: 100vh;}
+html{ overflow: hidden; position: fixed;}
 body{
   font-family: 'Montserrat';
   font-weight: 400;
