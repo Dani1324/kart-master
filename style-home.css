@@ -11,6 +11,7 @@ body{
   top: 0;
   padding: 0;
   overflow: hidden;
+  position: static;
 }
 
 a{ text-decoration: none; color: #292829; cursor: pointer;}
@@ -339,12 +340,10 @@ button{ cursor: pointer;}
 
 /* Footer*/
 .footer{
-  position: absolute;
   left: 0;
   bottom: 0;
   width: 100vw;
-  padding: 6vh 0;
-  margin-top: 15vw;
+  padding: 3vh 0;
 }
 
 .footer-links{
@@ -357,4 +356,330 @@ button{ cursor: pointer;}
 .footer-links a{
   margin: 0 1.5vw;
   font-size: 1.05vw;
+}
+
+
+@media (max-width: 1025px) {
+
+  /* Popup settings */
+  .popup{
+    margin: 7vw auto auto auto;
+    padding: 4.5vw 4%;
+    border-radius: 1.2vw;
+    width: 28%;
+  }
+
+
+  /* Popup style */
+  .popup h1{
+    font-family: 'Oswald';
+    font-size: 2.5vw;
+    text-align: center;
+    margin-bottom: 4vw;
+  }
+
+  .popup input{
+    width: calc(100% - 4vw);
+    border: none;
+    background-color: #F6F6F6;
+    color: #292829;
+    padding: 1.6vw 2vw 1.35vw 2vw;
+    margin-bottom: 4vw;
+    border-radius: 1vw;
+    font-size: 1.25vw;
+  }
+
+  .popup div{
+    display: flex;
+    transition: all 0.13s;
+  }
+
+  .confirm-btn{
+    width: 48%;
+    margin-right: 4%;
+    border: none;
+    background-color: #E10600;
+    border-radius: 1vw 0vw 0vw 1vw;
+    font-size: 1.2vw;
+    color: #fff;
+    padding: 1.4vw 0;
+  }
+
+  .confirm-btn:active{
+    transform: scale(0.95);
+  }
+
+  .back-btn{
+    width: 48%;
+    border: none;
+    background-color: #292829;
+    border-radius: 0vw 1vw 1vw 0vw;
+    font-size: 1.2vw;
+    color: #fff;
+    padding: 1.4vw 0;
+  }
+
+  .back-btn:active{
+    transform: scale(0.95);
+  }
+
+
+  /* Header */
+  .header{
+    background-color: #fff;
+    width: 80vw;
+    padding: 1.3vw 10vw;
+    z-index: 3;
+  }
+
+  .header img{
+    height: 3.5vw;
+    padding: 0 26.3vw;
+  }
+
+  #header-control-right img{
+    height: 1.5vw;
+    padding: 1vw 0;
+  }
+
+  #header-control-left img{
+    height: 1.5vw;
+    padding: 1vw 0;
+    visibility: hidden;
+  }
+
+  #header-control-left{
+    cursor: default;
+  }
+
+
+  /* Menu */
+  .menu{
+    background-color: #292829;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 93vw;
+    height: 100vh;
+    padding: 0vh 3.5vw;
+    display: block;
+    z-index: 2;
+    transition: all 1s cubic-bezier(.215,.61,.355,1);
+  }
+
+  #menu-close{
+    margin: 2.3vw 0 7vw 0;
+  }
+
+  #menu-close img{
+    height: 1.8vw;
+  }
+
+  .menu a{
+    font-family: 'Oswald';
+    font-weight: 400;
+    color: #fff;
+    width: 0%;
+    display: block;
+    margin: 5vh 0 0 0;
+    font-size: 1.5vw;
+    white-space: nowrap;
+  }
+
+  .menu a span{
+    color: #E10600;
+  }
+
+
+  /* Content */
+  .content{
+    width: 80vw;
+    height: 34vw;
+    margin: 5vw 10vw 0 10vw;
+    display: flex;
+  }
+
+
+  /* Content first block */
+  .user-info{
+    width: 33%;
+    background-color: #fff;
+    border-radius: 1vw;
+    margin-right: 4%;
+    overflow: hidden;
+  }
+
+  .user-info-top{
+    background-image: url('resources/user-info-bg.webp');
+    background-size: cover;
+    color: #fff;
+    height: 20%;
+    padding: 46% 10% 0% 10%;
+    display: flex;
+  }
+
+  .user-info-top .informations{
+    width: 90%;
+  }
+
+  .user-info-top .informations h1{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 2.1vw;
+    letter-spacing: 0.06vw;
+  }
+
+  .user-info-top .informations p{
+    font-weight: 100;
+    font-size: 1.15vw;
+    margin-top: 0.2vw;
+  }
+
+  .user-info-top a{
+    width: 10%;
+  }
+
+  .user-info-top a img{
+    width: 100%;
+    margin-top: 1vw;
+  }
+
+  .user-info-top a img:active{
+    transform: scale(0.92);
+  }
+
+  .user-info-bottom{
+    padding: 10% 10% 0% 10%;
+  }
+
+  .user-info-bottom .informations{
+    display: flex;
+    width: 100%;
+    padding-bottom: 1.3vw;
+  }
+
+  .user-info-bottom .informations h2{
+    font-size: 1.2vw;
+    width: 90%;
+  }
+
+  .user-info-bottom .informations p{
+    font-size: 1.1vw;
+    width: 10%;
+    text-align: right;
+  }
+
+
+  /* Content second block */
+  .championship{
+    width: 63%;
+    background-color: #fff;
+    border-radius: 1vw;
+    overflow: hidden;
+  }
+
+  .championship .new{
+    text-align: center;
+    margin-top: 11vw;
+    cursor: pointer;
+  }
+
+  .championship .new h2{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 1.9vw;
+    letter-spacing: 0.03vw;
+  }
+
+  .championship .new h3{
+    font-size: 6vw;
+  }
+
+  .championship-top{
+    width: 100%;
+    text-align: center;
+    padding: 1.5vw 0;
+    border-bottom: 0.12vw solid #F6F6F6;
+  }
+
+  .championship-top h2{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 1.9vw;
+    letter-spacing: 0.03vw;
+  }
+
+  .championship-top h3{
+    font-weight: 300;
+    font-size: 1.15vw;
+    margin-top: 0.15vw;
+  }
+
+  .championship .table{
+    margin: 3% 7% 2% 7%;
+    height: 20.5vw;
+    overflow-y: scroll;
+  }
+
+  .championship table{
+    width: 86%;
+    text-align: left;
+  }
+
+  .championship th{
+    font-size: 1vw;
+    color: #949394;
+    padding-bottom: 1vw;
+  }
+
+  #column-1{
+    width: 28%;
+  }
+
+  #column-2{
+    width: 62%;
+  }
+
+  #column-3{
+    width: 10%;
+  }
+
+  .championship td{
+    font-size: 1.1vw;
+    padding-bottom: 0.3vw;
+  }
+
+  .championship-btn{
+    font-family: 'Montserrat';
+    font-size: 1.1vw;
+    width: 100%;
+    height: 3.8vw;
+    border: none;
+    background-color: #E10600;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.09s;
+  }
+
+
+  /* Footer*/
+  .footer{
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    padding: 3vh 0;
+  }
+
+  .footer-links{
+    display: flex;
+    width: 38vw;
+    margin: 2.7vw auto 0vw auto;
+    opacity: 0.7;
+  }
+
+  .footer-links a{
+    margin: 0 1.5vw;
+    font-size: 1.05vw;
+  }
+
 }
