@@ -1,5 +1,5 @@
 /* General style of the website */
-html{ overflow-x: hidden; min-height: 100vh;}
+html{ overflow: hidden; min-height: 100vh;}
 body{
   font-family: 'Montserrat';
   font-weight: 400;
@@ -14,6 +14,7 @@ body{
 }
 
 a{ text-decoration: none; color: #292829; cursor: pointer;}
+button{ cursor: pointer;}
 
 
 /* Popup settings */
@@ -34,25 +35,14 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 .overlay:target{ visibility: visible; opacity: 1;}
 
 .popup{
-  margin: 5vw auto auto auto;
-  padding: 5.5vw 4%;
+  margin: 7vw auto auto auto;
+  padding: 4.5vw 4%;
   background: #fff;
   border-radius: 1.2vw;
-  width: 30%;
+  width: 28%;
   position: relative;
   z-index: 200;
 }
-
-.popup .close{
-  color: #292829;
-  position: absolute;
-  top: 3vw;
-  right: 3.8vw;
-  transition: all 0.15s;
-  font-size: 3vw;
-}
-
-.popup .close:hover{ color: #E10600;}
 
 
 /* Popup style */
@@ -69,36 +59,43 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   background-color: #F6F6F6;
   color: #292829;
   padding: 1.6vw 2vw 1.35vw 2vw;
-  margin-bottom: 1vw;
+  margin-bottom: 4vw;
   border-radius: 1vw;
   font-size: 1.25vw;
 }
 
-.popup p{
-  font-size: 1.1vw;
-  text-align: center;
-  margin: 1vw 0 5vw 0;
-}
-
-.popup p a{
-  color: #0A76F1;
-  text-decoration: underline;
-}
-
 .popup div{
-  transition: all 0.06s;
+  display: flex;
+  transition: all 0.13s;
 }
 
-.popup div:active{
+.confirm-btn{
+  width: 48%;
+  margin-right: 4%;
+  border: none;
+  background-color: #E10600;
+  border-radius: 1vw 0vw 0vw 1vw;
+  font-size: 1.2vw;
+  color: #fff;
+  padding: 1.4vw 0;
+}
+
+.confirm-btn:active{
   transform: scale(0.95);
 }
 
-.log-btn{
-  background-color: #E10600;
-  border-radius: 1vw;
+.back-btn{
+  width: 48%;
+  border: none;
+  background-color: #292829;
+  border-radius: 0vw 1vw 1vw 0vw;
   font-size: 1.2vw;
   color: #fff;
-  padding: 1.2vw 13.5vw;
+  padding: 1.4vw 0;
+}
+
+.back-btn:active{
+  transform: scale(0.95);
 }
 
 
@@ -222,6 +219,10 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   margin-top: 1vw;
 }
 
+.user-info-top a img:active{
+  transform: scale(0.92);
+}
+
 .user-info-bottom{
   padding: 10% 10% 0% 10%;
 }
@@ -233,12 +234,12 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 }
 
 .user-info-bottom .informations h2{
-  font-size: 1.25vw;
+  font-size: 1.2vw;
   width: 90%;
 }
 
 .user-info-bottom .informations p{
-  font-size: 1.25vw;
+  font-size: 1.1vw;
   width: 10%;
   text-align: right;
 }
@@ -252,6 +253,23 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   overflow: hidden;
 }
 
+.championship .new{
+  text-align: center;
+  margin-top: 11vw;
+  cursor: pointer;
+}
+
+.championship .new h2{
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 1.9vw;
+  letter-spacing: 0.03vw;
+}
+
+.championship .new h3{
+  font-size: 6vw;
+}
+
 .championship-top{
   width: 100%;
   text-align: center;
@@ -262,7 +280,7 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 .championship-top h2{
   font-family: 'Oswald';
   font-weight: 500;
-  font-size: 1.8vw;
+  font-size: 1.9vw;
   letter-spacing: 0.03vw;
 }
 
@@ -270,6 +288,52 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   font-weight: 300;
   font-size: 1.15vw;
   margin-top: 0.15vw;
+}
+
+.championship .table{
+  margin: 3% 7% 2% 7%;
+  height: 20.5vw;
+  overflow-y: scroll;
+}
+
+.championship table{
+  width: 86%;
+  text-align: left;
+}
+
+.championship th{
+  font-size: 1vw;
+  color: #949394;
+  padding-bottom: 1vw;
+}
+
+#column-1{
+  width: 28%;
+}
+
+#column-2{
+  width: 62%;
+}
+
+#column-3{
+  width: 10%;
+}
+
+.championship td{
+  font-size: 1.1vw;
+  padding-bottom: 0.3vw;
+}
+
+.championship-btn{
+  font-family: 'Montserrat';
+  font-size: 1.1vw;
+  width: 100%;
+  height: 3.8vw;
+  border: none;
+  background-color: #E10600;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.09s;
 }
 
 
@@ -286,7 +350,7 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 .footer-links{
   display: flex;
   width: 38vw;
-  margin: 2.5vw auto 0vw auto;
+  margin: 2.7vw auto 0vw auto;
   opacity: 0.7;
 }
 
