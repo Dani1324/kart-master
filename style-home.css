@@ -164,6 +164,114 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   white-space: nowrap;
 }
 
+.menu a span{
+  color: #E10600;
+}
+
+
+/* Content */
+.content{
+  width: 80vw;
+  height: 34vw;
+  margin: 5vw 10vw 0 10vw;
+  display: flex;
+}
+
+
+/* Content first block */
+.user-info{
+  width: 33%;
+  background-color: #fff;
+  border-radius: 1vw;
+  margin-right: 4%;
+  overflow: hidden;
+}
+
+.user-info-top{
+  background-image: url('resources/user-info-bg.webp');
+  background-size: cover;
+  color: #fff;
+  height: 20%;
+  padding: 46% 10% 0% 10%;
+  display: flex;
+}
+
+.user-info-top .informations{
+  width: 90%;
+}
+
+.user-info-top .informations h1{
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 2.1vw;
+  letter-spacing: 0.06vw;
+}
+
+.user-info-top .informations p{
+  font-weight: 100;
+  font-size: 1.15vw;
+  margin-top: 0.2vw;
+}
+
+.user-info-top a{
+  width: 10%;
+}
+
+.user-info-top a img{
+  width: 100%;
+  margin-top: 1vw;
+}
+
+.user-info-bottom{
+  padding: 10% 10% 0% 10%;
+}
+
+.user-info-bottom .informations{
+  display: flex;
+  width: 100%;
+  padding-bottom: 1.3vw;
+}
+
+.user-info-bottom .informations h2{
+  font-size: 1.25vw;
+  width: 90%;
+}
+
+.user-info-bottom .informations p{
+  font-size: 1.25vw;
+  width: 10%;
+  text-align: right;
+}
+
+
+/* Content second block */
+.championship{
+  width: 63%;
+  background-color: #fff;
+  border-radius: 1vw;
+  overflow: hidden;
+}
+
+.championship-top{
+  width: 100%;
+  text-align: center;
+  padding: 1.5vw 0;
+  border-bottom: 0.12vw solid #F6F6F6;
+}
+
+.championship-top h2{
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 1.8vw;
+  letter-spacing: 0.03vw;
+}
+
+.championship-top h3{
+  font-weight: 300;
+  font-size: 1.15vw;
+  margin-top: 0.15vw;
+}
+
 
 /* Footer*/
 .footer{
@@ -171,7 +279,7 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
   left: 0;
   bottom: 0;
   width: 100vw;
-  padding: 4vw 0;
+  padding: 6vh 0;
   margin-top: 15vw;
 }
 
@@ -185,218 +293,4 @@ a{ text-decoration: none; color: #292829; cursor: pointer;}
 .footer-links a{
   margin: 0 1.5vw;
   font-size: 1.05vw;
-}
-
-
-@media (max-width: 1025px) {
-
-  body{
-    font-size: 3.2vw;
-  }
-
-  /* Popup settings */
-  .popup{
-    margin-top: 45vw;
-    padding: 15vw 8%;
-    border-radius: 2.8vw;
-    width: 73%;
-  }
-
-  .popup .close{
-    top: 6vw;
-    right: 7.6vw;
-    font-size: 10vw;
-  }
-
-
-  /* Popup style */
-  .popup h1{
-    font-size: 7vw;
-    margin-bottom: 8vw;
-  }
-
-  .popup input{
-    width: calc(100% - 10vw);
-    padding: 4.4vw 5vw 4vw 5vw;
-    margin-bottom: 3vw;
-    border-radius: 2vw;
-    font-size: 3.5vw;
-  }
-
-  .popup p{
-    font-size: 3.2vw;
-    margin: 2vw 0 12vw 0;
-  }
-
-  .log-btn{
-    border-radius: 2vw;
-    font-size: 4vw;
-    padding: 3.2vw 30.2vw;
-  }
-
-
-  /* Header */
-  .header{
-    padding: 0vw;
-    margin-top: 5vh;
-  }
-
-  .header h1{
-    font-size: 12vw;
-    margin-bottom: -0.8vw;
-  }
-
-  .header h2{
-    font-size: 3.1vw;
-  }
-
-
-  /* Hero */
-  .hero{
-    background-image: url('resources/hero-bg-mobile.webp');
-    height: 80vw;
-    padding-top: 100vw;
-    padding-bottom: 30vw;
-  }
-
-  .hero h2{
-    font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 7.5vw;
-    margin-bottom: 4vw;
-  }
-
-  .hero h3{
-    font-size: 3.9vw;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 3vw;
-  }
-
-  .buttons{
-    width: 90vw;
-    height: 10vw;
-    margin: 10vw 5vw 0vw 5vw;
-    display: block;
-  }
-
-  .hero-btn-1{
-    position: absolute;
-    top: 146vw;
-    font-weight: 600;
-    margin: 0;
-    width: 30vw;
-    border-radius: 2.3vw;
-    font-size: 4.5vw;
-    padding: 3.8vw 30vw 3.5vw 30vw;
-  }
-
-  .hero-btn-2{
-    position: absolute;
-    top: 163vw;
-    font-weight: 600;
-    width: 30vw;
-    border-radius: 2.3vw;
-    border: 0.3vw solid #fff;
-    font-size: 4.5vw;
-    padding: 3.7vw 29.7vw 3.4vw 29.7vw;
-  }
-
-
-  /* Quote */
-  .quote{
-    height: 37vw;
-    margin-bottom: 30vw;
-  }
-
-  .quote img{
-    top: 244vw;
-    transform: scaleY(1.6);
-  }
-
-  .quote br{
-    display: none;
-  }
-
-  .quote h3{
-    font-size: 6.3vw;
-    margin: 38vw auto 4vw auto;
-  }
-
-  .quote p{
-    font-size: 4vw;
-  }
-
-
-  /* Card */
-  .card{
-    width: 90vw;
-    margin: 8vw 5vw 0vw 5vw;
-    border-radius: 2.5vw;
-    display: block;
-  }
-
-  .card img{
-    height: auto;
-    width: 100%;
-  }
-
-  .card__content{
-    width: 76%;
-    margin: 8.85vw 12% 13vw 12%;
-    text-align: left;
-  }
-
-  .card__content h2{
-    font-size: 4.9vw;
-    margin-bottom: 5vw;
-  }
-
-  .card__content p{
-    margin-bottom: 10vw;
-  }
-
-  .card__content br{
-    display: none;
-  }
-
-  .card__content a{
-    font-size: 3.2vw;
-    padding: 2.2vw 10vw;
-    border-radius: 2vw;
-  }
-
-  .login-link{
-    width: 31.2vw;
-    margin-left: 0;
-  }
-
-
-  /* Footer*/
-  .footer{
-    display: none;
-    padding: 8vw 0;
-  }
-
-  .footer img{
-    width: 54vw;
-    margin: 0 23vw;
-  }
-
-  .footer h2{
-    font-size: 1.6vw;
-    margin-top: -1.2vw;
-  }
-
-  .footer-links{
-    width: 80vw;
-    margin: 5vw auto 0vw auto;
-  }
-
-  .footer-links a{
-    margin: 0 2.5vw;
-    font-size: 2.6vw;
-  }
-
 }
