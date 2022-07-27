@@ -143,6 +143,10 @@ button{ cursor: pointer;}
   transition: all 1s cubic-bezier(.215,.61,.355,1);
 }
 
+#mobile{
+  display: none;
+}
+
 #menu-close{
   margin: 2.3vw 0 7vw 0;
 }
@@ -409,17 +413,17 @@ button{ cursor: pointer;}
   }
 
   .header img{
-    height: 7vw;
-    padding: 0 12.7vw;
+    height: 8vw;
+    padding: 0 8.2vw;
   }
 
   #header-control-right img{
-    height: 3.5vw;
+    height: 4.5vw;
     padding: 2vw 0;
   }
 
   #header-control-left img{
-    height: 3.5vw;
+    height: 4.5vw;
     padding: 2vw 0;
   }
 
@@ -428,6 +432,10 @@ button{ cursor: pointer;}
   .menu{
     width: 76vw;
     padding: 0vh 12vw;
+  }
+
+  #mobile{
+    display: block;
   }
 
   #menu-close{
@@ -439,9 +447,8 @@ button{ cursor: pointer;}
   }
 
   .menu a{
-    font-weight: 300;
-    margin: 7vh 0 0 0;
-    font-size: 5vw;
+    margin: 4vh 0 0 0;
+    font-size: 5.5vw;
   }
 
 
@@ -618,22 +625,7 @@ button{ cursor: pointer;}
 
   /* Footer*/
   .footer{
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    padding: 3vh 0;
-  }
-
-  .footer-links{
-    display: flex;
-    width: 38vw;
-    margin: 2.7vw auto 0vw auto;
-    opacity: 0.7;
-  }
-
-  .footer-links a{
-    margin: 0 1.5vw;
-    font-size: 1.05vw;
+    display: none;
   }
 
 }
