@@ -431,21 +431,17 @@ button{ cursor: pointer;}
   }
 
   #menu-close{
-    margin: 5vw 0 25vw 0;
+    margin: 3vw 0 25vw 0;
   }
 
   #menu-close img{
-    height: 3.5vw;
+    height: 4vw;
   }
 
   .menu a{
     font-weight: 300;
     margin: 7vh 0 0 0;
     font-size: 5vw;
-  }
-
-  .menu a span{
-    color: #E10600;
   }
 
 
