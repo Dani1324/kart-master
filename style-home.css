@@ -490,7 +490,7 @@ button{ cursor: pointer;}
 
   .user-info-top .informations p{
     color: #292829;
-    font-size: 3.2vw;
+    font-size: 3.4vw;
     margin-top: 0.2vw;
   }
 
@@ -504,22 +504,20 @@ button{ cursor: pointer;}
   }
 
   .user-info-bottom{
-    padding: 10% 10% 0% 10%;
+    padding: 7% 10% 5% 10%;
   }
 
   .user-info-bottom .informations{
-    display: flex;
-    width: 100%;
-    padding-bottom: 1.3vw;
+    padding-bottom: 3.8vw;
   }
 
   .user-info-bottom .informations h2{
-    font-size: 1.2vw;
+    font-size: 3.8vw;
     width: 90%;
   }
 
   .user-info-bottom .informations p{
-    font-size: 1.1vw;
+    font-size: 3.4vw;
     width: 10%;
     text-align: right;
   }
@@ -527,10 +525,8 @@ button{ cursor: pointer;}
 
   /* Content second block */
   .championship{
-    width: 63%;
-    background-color: #fff;
-    border-radius: 1vw;
-    overflow: hidden;
+    width: 100%;
+    border-radius: 3vw;
   }
 
   .championship .new{
