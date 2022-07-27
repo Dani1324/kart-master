@@ -403,64 +403,45 @@ button{ cursor: pointer;}
 
   /* Header */
   .header{
-    background-color: #fff;
     width: 80vw;
-    padding: 1.3vw 10vw;
-    z-index: 3;
+    padding: 3vw 10vw;
+    display: flex;
   }
 
   .header img{
-    height: 3.5vw;
-    padding: 0 26.3vw;
+    height: 7vw;
+    padding: 0 12.7vw;
   }
 
   #header-control-right img{
-    height: 1.5vw;
-    padding: 1vw 0;
+    height: 3.5vw;
+    padding: 2vw 0;
   }
 
   #header-control-left img{
-    height: 1.5vw;
-    padding: 1vw 0;
-    visibility: hidden;
-  }
-
-  #header-control-left{
-    cursor: default;
+    height: 3.5vw;
+    padding: 2vw 0;
   }
 
 
   /* Menu */
   .menu{
-    background-color: #292829;
-    position: absolute;
-    top: 0;
-    right: -100%;
-    width: 93vw;
-    height: 100vh;
-    padding: 0vh 3.5vw;
-    display: block;
-    z-index: 2;
-    transition: all 1s cubic-bezier(.215,.61,.355,1);
+    width: 76vw;
+    padding: 0vh 12vw;
   }
 
   #menu-close{
-    margin: 2.3vw 0 7vw 0;
+    margin: 5vw 0 25vw 0;
   }
 
   #menu-close img{
-    height: 1.8vw;
+    height: 3.5vw;
   }
 
   .menu a{
-    font-family: 'Oswald';
-    font-weight: 400;
-    color: #fff;
-    width: 0%;
-    display: block;
-    margin: 5vh 0 0 0;
-    font-size: 1.5vw;
-    white-space: nowrap;
+    font-weight: 300;
+    margin: 7vh 0 0 0;
+    font-size: 5vw;
   }
 
   .menu a span{

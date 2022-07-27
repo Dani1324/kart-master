@@ -21,10 +21,21 @@ $("a#ciao").on('click', function(event) {
 const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
 // Menu
-$( "#header-control-right" ).on('click', function() {
-  $(".menu").css("right", "-80%");
-});
+if (width > 1025) {
+  $( "#header-control-right" ).on('click', function() {
+    $(".menu").css("right", "-80%");
+  });
 
-$( "#menu-close" ).on('click', function() {
-  $(".menu").css("right", "-100%");
-});
+  $( "#menu-close" ).on('click', function() {
+    $(".menu").css("right", "-100%");
+  });
+}
+else {
+  $( "#header-control-right" ).on('click', function() {
+    $(".menu").css("right", "-27%");
+  });
+
+  $( "#menu-close" ).on('click', function() {
+    $(".menu").css("right", "-100%");
+  });
+}
