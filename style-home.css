@@ -492,6 +492,7 @@ button{ cursor: pointer;}
     color: #292829;
     font-size: 3.4vw;
     margin-top: 0.2vw;
+    font-weight: 300;
   }
 
   .user-info-top a{
@@ -544,6 +545,7 @@ button{ cursor: pointer;}
   .championship .new h3{
     font-size: 12vw;
     padding-bottom: 9vw;
+    font-weight: 300;
   }
 
   .championship-top{
