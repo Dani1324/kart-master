@@ -407,14 +407,14 @@ button{ cursor: pointer;}
 
   /* Header */
   .header{
-    width: 80vw;
-    padding: 3vw 10vw;
+    width: 90vw;
+    padding: 3vw 5vw;
     display: flex;
   }
 
   .header img{
     height: 8vw;
-    padding: 0 8.2vw;
+    padding: 0 13.3vw;
   }
 
   #header-control-right img{
@@ -454,10 +454,11 @@ button{ cursor: pointer;}
 
   /* Content */
   .content{
-    width: 80vw;
-    height: 34vw;
-    margin: 5vw 10vw 0 10vw;
-    display: flex;
+    width: 90vw;
+    height: 86vh;
+    margin: 10vw 5vw 0 5vw;
+    display: block;
+    overflow-y: scroll;
   }
 
 
