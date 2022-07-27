@@ -31,6 +31,7 @@ if (width > 1025) {
   });
 }
 else {
+  $("#header-logo").attr("src","resources/logo.webp");
   $( "#header-control-right" ).on('click', function() {
     $(".menu").css("right", "-27%");
   });
