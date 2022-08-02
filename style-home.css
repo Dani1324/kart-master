@@ -701,11 +701,11 @@ button{ cursor: pointer;}
   .new-championship-btn{
     display: block;
     text-align: center;
-    margin: 10vw 10vw 0 10vw;
+    margin: 10vw 5vw 6vw 5vw;
     background-color: #292829;
     color: #fff;
     font-size: 3.6vw;
-    padding: 3.5vw 0 3.2vw 0;
+    padding: 3.8vw 0 3.5vw 0;
     border-radius: 2.5vw;
     transition: 0.01s;
   }
@@ -714,59 +714,55 @@ button{ cursor: pointer;}
 
   .main-div{
     width: 90vw;
-    overflow-x: scroll;
-    padding: 10vw 0 0 10vw;
-    display: flex;
+    padding: 0vw 5vw 3vw 5vw;
+    display: block;
+    height: calc(100vh - 44vw);
+    overflow-y: scroll;
   }
 
   .championships__content{
-    height: 34vw;
-    display: flex;
-    padding-bottom: 1vw;
+    height: auto;
+    display: block;
+    padding-bottom: 0vw;
   }
 
   .old-championship{
-    width: 28vw;
-    background-color: #fff;
-    border-radius: 1vw;
-    margin-right: 2vw;
-    overflow: hidden;
+    width: 90vw;
+    border-radius: 2.5vw;
+    margin-right: 0vw;
+    margin-bottom: 6vw;
   }
 
   .old-championship-top{
-    border-bottom: 0.12vw solid #F6F6F6;
+    border-bottom: 0.3vw solid #F6F6F6;
   }
 
   .old-championship-top h2{
-    font-family: 'Oswald';
-    font-weight: 500;
-    font-size: 2.3vw;
-    text-align: center;
-    margin: 3.5vw 0 0.3vw 0;
+    font-size: 7vw;
+    margin: 7vw 0 0.8vw 0;
   }
 
   .old-championship-top h3{
-    font-weight: 300;
-    font-size: 1.1vw;
-    text-align: center;
-    margin-bottom: 3.5vw;
+    font-size: 3.4vw;
+    margin-bottom: 7vw;
   }
 
   .old-championship-info{
-    width: 80%;
-    margin: 3vw 10% 8.3vw 10%;
+    width: 84%;
+    margin: 8vw 8% 8vw 8%;
   }
 
   .old-championship-info div{
-    display: flex;
-    margin-bottom: 1vw;
+    margin-bottom: 4vw;
   }
 
   .old-championship-info div h5{
+    font-size: 4vw;
     width: 90%;
   }
 
   .old-championship-info div p{
+    font-size: 4vw;
     width: 10%;
     text-align: right;
   }
