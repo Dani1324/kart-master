@@ -713,7 +713,7 @@ button{ cursor: pointer;}
 
   .main-div{
     width: 90vw;
-    padding: 0vw 5vw 12vw 5vw;
+    padding: 0vw 5vw 20vw 5vw;
     margin-bottom: 4vw;
     display: block;
     height: calc(90vh - 44vw);
