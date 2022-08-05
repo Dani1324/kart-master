@@ -713,10 +713,10 @@ button{ cursor: pointer;}
 
   .main-div{
     width: 90vw;
-    padding: 0vw 5vw 20vw 5vw;
+    padding: 0vw 5vw 6vw 5vw;
     margin-bottom: 4vw;
     display: block;
-    height: calc(90vh - 44vw);
+    height: calc(100vh - 44vw);
     overflow-y: scroll;
   }
 
@@ -730,7 +730,7 @@ button{ cursor: pointer;}
     width: 90vw;
     border-radius: 2.5vw;
     margin-right: 0vw;
-    margin-bottom: 7vw;
+    margin-bottom: 6vw;
   }
 
   .old-championship-top{
