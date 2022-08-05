@@ -704,7 +704,7 @@ button{ cursor: pointer;}
     background-color: #292829;
     color: #fff;
     font-size: 3.6vw;
-    padding: 3.8vw 0 0vw 0;
+    padding: 3.8vw 0 3.5vw 0;
     border-radius: 2.5vw;
     transition: 0.01s;
   }
@@ -713,7 +713,8 @@ button{ cursor: pointer;}
 
   .main-div{
     width: 90vw;
-    padding: 0vw 5vw 3vw 5vw;
+    padding: 0vw 5vw 12vw 5vw;
+    margin-bottom: 4vw;
     display: block;
     height: calc(100vh - 44vw);
     overflow-y: scroll;
@@ -729,7 +730,7 @@ button{ cursor: pointer;}
     width: 90vw;
     border-radius: 2.5vw;
     margin-right: 0vw;
-    margin-bottom: 6vw;
+    margin-bottom: 7vw;
   }
 
   .old-championship-top{
