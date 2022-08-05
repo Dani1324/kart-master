@@ -121,7 +121,6 @@ button{ cursor: pointer;}
 #header-control-left img{
   height: 1.5vw;
   padding: 1vw 0;
-  visibility: hidden;
 }
 
 #header-control-left{
