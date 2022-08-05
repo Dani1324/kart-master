@@ -716,7 +716,7 @@ button{ cursor: pointer;}
     padding: 0vw 5vw 12vw 5vw;
     margin-bottom: 4vw;
     display: block;
-    height: calc(100vh - 44vw);
+    height: calc(90vh - 44vw);
     overflow-y: scroll;
   }
 
