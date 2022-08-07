@@ -448,6 +448,77 @@ button{ cursor: pointer;}
   display: none;
 }
 
+
+/* PAGINA GARE */
+
+/* Races */
+.races{
+  margin-left: 4%;
+  width: 33%;
+  background-color: #fff;
+  border-radius: 1vw;
+  overflow: hidden;
+  padding: 2% 3%;
+}
+
+#races-done{
+  display: none;
+}
+
+.races h2{
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 1.9vw;
+  letter-spacing: 0.03vw;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.races-list{
+  width: 100%;
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.races-btn{
+  font-family: 'Montserrat';
+  font-size: 1.1vw;
+  width: 100%;
+  height: 4.3vw;
+  border: none;
+  background-color: #E10600;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.09s;
+}
+
+.race{
+  display: flex;
+  margin-bottom: 1vw;
+}
+
+.race-texts{
+  width: 63%;
+  margin: 5% 4% 0 0;
+}
+
+.race-texts h2{
+  font-weight: 100;
+  text-align: left;
+  font-size: 1.3vw;
+  padding-bottom: 0.4vw;
+}
+
+.race-texts p{
+  font-weight: 300;
+  font-size: 0.9vw;
+}
+
+.race-image{
+  width: 33%;
+}
+
+
 @media (max-width: 1025px) {
 
   /* Popup settings */
@@ -769,6 +840,53 @@ button{ cursor: pointer;}
 
   .new-championship{
     display: none;
+  }
+
+
+  /* PAGINA GARE */
+
+  /* Races */
+  .races{
+    margin: 8vw 0 20vw 0;
+    width: 86%;
+    border-radius: 3vw;
+    padding: 4% 7%;
+  }
+
+  #races-done{
+    display: block;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 6.5vw;
+    text-align: center;
+    padding: 12% 0 0 0;
+  }
+
+  .races-btn{
+    display: none;
+  }
+
+  .races h2{
+    display: none;
+  }
+
+  .race{
+    margin: 4vw 0;
+  }
+
+  .race-texts{
+    margin: 4.5% 4% 0 0;
+  }
+
+  .race-texts h2{
+    display: block;
+    font-size: 4.5vw;
+    text-align: left;
+    padding-bottom: 1vw;
+  }
+
+  .race-texts p{
+    font-size: 3.2vw;
   }
 
 }
