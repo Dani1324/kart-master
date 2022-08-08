@@ -519,6 +519,153 @@ button{ cursor: pointer;}
 }
 
 
+/* PAGINA CHAMPIONSHIP */
+
+/* Popup */
+#new-race-popup-style{
+  margin-top: 5vw;
+}
+
+#new-race-popup-style h1{
+  font-weight: 500;
+  letter-spacing: 0.06vw;
+}
+
+.new-race-input{
+  margin-bottom: 1vw !important;
+}
+
+#popup-buttons{
+  margin-top: 2.5vw;
+}
+
+
+/* Form */
+.form{
+  width: 33%;
+  margin-right: 4%;
+}
+
+.form-card{
+  width: 100%;
+  background-color: #fff;
+  border-radius: 1vw;
+  overflow: hidden;
+  padding: 13% 0% 9.8% 0%;
+  margin-bottom: 2.7vw;
+}
+
+.form h1{
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 1.9vw;
+  letter-spacing: 0.03vw;
+  text-align: center;
+  padding-bottom: 0.4vw;
+}
+
+.form h2{
+  width: 100%;
+  font-weight: 300;
+  font-size: 1.1vw;
+  text-align: center;
+  padding-bottom: 3.5vw;
+  margin-bottom: 3vw;
+  border-bottom: 0.12vw solid #F6F6F6;
+}
+
+.form form{
+  margin: 0 10%;
+  width: 80%;
+}
+
+.form input{
+  width: 86%;
+  font-size: 1.2vw;
+  color: #292829;
+  padding: 4% 6% 4% 6%;
+  border: 0;
+  border-radius: 0.5vw;
+}
+
+::placeholder { color: #696869; opacity: 1;}
+:-ms-input-placeholder { color: #696869;}
+::-ms-input-placeholder { color: #696869;}
+
+.form button{
+  width: 100%;
+  border-radius: 1vw;
+  border: none;
+  font-size: 1.2vw;
+  font-weight: 600;
+  padding: 1.5vw 0;
+  margin-top: 1.3vw;
+  color: #fff;
+  background-color: #292829;
+  transition: 0.03s;
+}
+
+.form .red-btn{
+  background-color: #E10600;
+}
+
+.form button:active{
+  transform: scale(0.97);
+}
+
+
+/* New */
+.new{
+  width: 63%;
+  background-color: #fff;
+  border-radius: 1vw;
+  overflow: hidden;
+}
+
+.new-top{
+  width: 100%;
+  text-align: center;
+  padding: 2.2vw 0;
+  border-bottom: 0.12vw solid #F6F6F6;
+}
+
+.new-top h2{
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 1.9vw;
+  letter-spacing: 0.03vw;
+}
+
+.new .table{
+  margin: 3.5% 7% 0% 7%;
+  height: 23vw;
+  overflow-y: scroll;
+}
+
+.new table{
+  width: 100%;
+  text-align: left;
+}
+
+.new td{
+  width: 100%;
+}
+
+.new .name p{
+  transform: translateY(-0.3vw);
+  font-size: 1.1vw;
+}
+
+.new td a{
+  font-size: 2vw;
+  transition: 0.15s;
+}
+
+.new td a:hover{
+  color: red;
+}
+
+
 @media (max-width: 1025px) {
 
   /* Popup settings */
@@ -889,4 +1036,85 @@ button{ cursor: pointer;}
     font-size: 3.2vw;
   }
 
+
+  /* PAGINA CHAMPIONSHIP */
+
+  /* Popup */
+  #new-race-popup-style{
+    margin-top: 20vw;
+  }
+
+  .new-race-input{
+    margin-bottom: 2.5vw !important;
+  }
+
+  #popup-buttons{
+    margin-top: 5vw;
+  }
+
+
+  /* Form */
+  .form{
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .form-card{
+    border-radius: 3vw;
+    padding: 7% 0% 7% 0%;
+    margin-bottom: 6vw;
+  }
+
+  .form h1{
+    font-size: 6.5vw;
+    padding-bottom: 1vw;
+  }
+
+  .form h2{
+    font-size: 3.4vw;
+    padding-bottom: 7vw;
+    margin-bottom: 7vw;
+    border-bottom: 0.3vw solid #F6F6F6;
+  }
+
+  .form input{
+    width: 88%;
+    font-size: 4vw;
+    padding: 4% 6% 4% 6%;
+    border-radius: 1.5vw;
+  }
+
+  .form button{
+    display: none;
+  }
+
+
+  /* New */
+  .new{
+    width: 100%;
+    border-radius: 3vw;
+  }
+
+  .new-top{
+    padding: 7% 0;
+    border-bottom: 0.3vw solid #F6F6F6;
+  }
+
+  .new-top h2{
+    font-size: 6.5vw;
+  }
+
+  .new .table{
+    margin: 8% 7% 8% 7%;
+    height: auto;
+  }
+
+  .new .name p{
+    transform: translateY(-1.3vw);
+    font-size: 4vw;
+  }
+
+  .new td a{
+    font-size: 8vw;
+  }
 }
