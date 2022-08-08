@@ -605,10 +605,6 @@ button{ cursor: pointer;}
   transition: 0.03s;
 }
 
-.form .red-btn{
-  background-color: #E10600;
-}
-
 .form button:active{
   transform: scale(0.97);
 }
@@ -663,6 +659,14 @@ button{ cursor: pointer;}
 
 .new td a:hover{
   color: red;
+}
+
+.fixed-bottom-buttons{
+  display: none;
+}
+
+.red-btn{
+  background-color: #E10600;
 }
 
 
@@ -1117,4 +1121,50 @@ button{ cursor: pointer;}
   .new td a{
     font-size: 8vw;
   }
+
+  .content2{
+    width: 90vw;
+    height: 76vh;
+    margin: 10vw 5vw 0 5vw;
+    display: block;
+    overflow-y: scroll;
+  }
+
+  .fixed-bottom-buttons{
+    display: block;
+    margin-top: 3vw;
+    width: 90%;
+    margin: 4vw 5%;
+    display: flex;
+  }
+
+  .fixed-bottom-buttons .red-btn{
+    border-radius: 3vw 0vw 0vw 3vw;
+    width: 48%;
+    border: none;
+    font-size: 4vw;
+    font-weight: 600;
+    padding: 3.8vw 0;
+    color: #fff;
+    background-color: #E10600;
+    transition: 0.03s;
+    margin-right: 4%;
+  }
+
+  .fixed-bottom-buttons .black-btn{
+    border-radius: 0vw 3vw 3vw 0vw;
+    width: 48%;
+    border: none;
+    font-size: 4vw;
+    font-weight: 600;
+    padding: 3.8vw 0;
+    color: #fff;
+    background-color: #292829;
+    transition: 0.03s;
+  }
+
+  .red-btn, .black-btn:active{
+    transform: scale(0.97);
+  }
+
 }
