@@ -677,6 +677,55 @@ button{ cursor: pointer;}
 }
 
 
+/* PAGINA NEW CHAMPIONSHIP */
+
+.button-text{
+  text-align: center;
+  font-size: 1.1vw;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 1.5vw 0 3vw 0;
+}
+
+#new-championship-title{
+  padding-bottom: 10%;
+  border-bottom: 0.13vw solid #f6f6f6;
+  margin-bottom: 10%;
+}
+
+#new-championship-input{
+  width: 80%;
+  margin: 0 10%;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.add-btn{
+  position: absolute;
+  top: 14vw;
+  right: 13.5vw;
+  background-color: #292829;
+  color: #fff;
+  border-radius: 1.75vw;
+  width: 2.5vw;
+  height: 2.5vw;
+  transition: 0.13s;
+}
+
+.add-btn h5{
+  font-size: 3vw;
+  transform: translateY(-0.65vw);
+}
+
+.add-btn:active{
+  background-color: #E10600;
+}
+
+.new-racer-btn{
+  display: none;
+}
+
 @media (max-width: 1025px) {
 
   /* Popup settings */
@@ -1179,5 +1228,45 @@ button{ cursor: pointer;}
   .red-btn, .black-btn:active{
     transform: scale(0.97);
   }
+
+
+  /* PAGINA NEW CHAMPIONSHIP */
+
+  .button-text{
+    font-size: 3.3vw;
+    margin: 4vw 0 9vw 0;
+  }
+
+  #new-championship-title{
+    padding-bottom: 7%;
+    border-bottom: 0.3vw solid #f6f6f6;
+    margin-bottom: 7%;
+  }
+
+  #new-championship-input{
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .add-btn{
+    display: none;
+  }
+
+  .new-racer-btn{
+    display: block;
+    text-align: center;
+    margin: 10vw 0vw 6vw 0vw;
+    background-color: #292829;
+    color: #fff;
+    font-size: 3.6vw;
+    padding: 3.8vw 0 3.5vw 0;
+    border-radius: 2.5vw;
+    transition: 0.01s;
+  }
+
+  .new-championship-btn:active{ transform: scale(0.97);}
 
 }
