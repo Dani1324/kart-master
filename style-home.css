@@ -863,11 +863,15 @@ button{ cursor: pointer;}
 
   .championship-top h2{
     font-size: 6.5vw;
+    width: 87%;
+    text-align: center;
   }
 
   .championship-top h3{
-    font-size: 3.4vw;
-    margin-top: 0.3vw;
+    font-size: 3.8vw;
+    margin-top: 0.8vw;
+    width: 87%;
+    text-align: center;
   }
 
   .championship .table{
@@ -1144,7 +1148,7 @@ button{ cursor: pointer;}
     border: none;
     font-size: 4vw;
     font-weight: 600;
-    padding: 3.8vw 0;
+    padding: 3.8vw 0 3.3vw 0;
     color: #fff;
     background-color: #E10600;
     transition: 0.03s;
@@ -1157,7 +1161,7 @@ button{ cursor: pointer;}
     border: none;
     font-size: 4vw;
     font-weight: 600;
-    padding: 3.8vw 0;
+    padding: 3.8vw 0 3.3vw 0;
     color: #fff;
     background-color: #292829;
     transition: 0.03s;
